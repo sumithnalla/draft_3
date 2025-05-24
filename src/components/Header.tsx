@@ -26,7 +26,6 @@ const Header = () => {
   const navLinks = [
     { name: 'Home', href: '#home' },
     { name: 'Venues', href: '#venues' },
-    { name: 'Slots', href: '#schedule' },
     { name: 'Location', href: '#venue' },
     { name: 'Gallery', href: '#gallery' },
   ];
@@ -116,6 +115,4 @@ const Header = () => {
       />
     </>
   );
-};
-
-export default Header;
+}
